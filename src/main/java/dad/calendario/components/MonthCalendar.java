@@ -73,15 +73,20 @@ public class MonthCalendar extends GridPane implements Initializable {
     private void changeMonth(int year, int month) {
         LocalDate initial = LocalDate.of(year, month + 1, 1);
         LocalDate end = initial.withDayOfMonth(initial.getMonth().length(initial.isLeapYear()));
+        LocalDate today = LocalDate.now();
 
         int currentDay = 1;
         for (int i = 0; i < 35; i++) {
             Label dayLabel = (Label) root.getChildren().get(i + 8);
+            dayLabel.getStyleClass().remove("today");
 
             if (i < initial.getDayOfWeek().getValue() || currentDay > end.getDayOfMonth()) {
                 dayLabel.setText("");
                 continue;
             }
+
+            if (today.getMonth().getValue() - 1 == month && today.getDayOfMonth() == currentDay)
+                dayLabel.getStyleClass().add("today");
 
             dayLabel.setText("" + currentDay);
             currentDay++;

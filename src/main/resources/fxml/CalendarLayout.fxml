@@ -26,80 +26,80 @@
       <RowConstraints valignment="CENTER" vgrow="ALWAYS" />
   </rowConstraints>
    <children>
-      <Label fx:id="monthNameLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Enero" GridPane.columnSpan="7" GridPane.valignment="CENTER">
+      <Label fx:id="monthNameLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="month" text="Enero" GridPane.columnSpan="7" GridPane.valignment="CENTER">
          <font>
             <Font size="21.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" text="L" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <Label alignment="CENTER" styleClass="weekday" text="L" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" text="M" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <Label alignment="CENTER" styleClass="weekday" text="M" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" text="X" GridPane.columnIndex="2" GridPane.rowIndex="1">
+      <Label alignment="CENTER" styleClass="weekday" text="X" GridPane.columnIndex="2" GridPane.rowIndex="1">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" prefHeight="16.0" prefWidth="0.0" text="J" GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <Label alignment="CENTER" prefHeight="16.0" prefWidth="0.0" styleClass="weekday" text="J" GridPane.columnIndex="3" GridPane.rowIndex="1">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" text="V" GridPane.columnIndex="4" GridPane.rowIndex="1">
+      <Label alignment="CENTER" styleClass="weekday" text="V" GridPane.columnIndex="4" GridPane.rowIndex="1">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" text="S" GridPane.columnIndex="5" GridPane.rowIndex="1">
+      <Label alignment="CENTER" styleClass="weekday" text="S" GridPane.columnIndex="5" GridPane.rowIndex="1">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" text="D" GridPane.columnIndex="6" GridPane.rowIndex="1">
+      <Label alignment="CENTER" styleClass="sunday" text="D" GridPane.columnIndex="6" GridPane.rowIndex="1">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label text="Label" GridPane.rowIndex="2" />
-      <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Label text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-      <Label text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-      <Label text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-      <Label text="Label" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-      <Label text="Label" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-      <Label text="Label" GridPane.rowIndex="3" />
-      <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <Label text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-      <Label text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-      <Label text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-      <Label text="Label" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-      <Label text="Label" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-      <Label text="Label" GridPane.rowIndex="4" />
-      <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-      <Label text="Label" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-      <Label text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-      <Label text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-      <Label text="Label" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-      <Label text="Label" GridPane.columnIndex="6" GridPane.rowIndex="4" />
-      <Label text="Label" GridPane.rowIndex="5" />
-      <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-      <Label text="Label" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-      <Label text="Label" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-      <Label text="Label" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-      <Label text="Label" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-      <Label text="Label" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-      <Label text="Label" GridPane.rowIndex="6" />
-      <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-      <Label text="Label" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-      <Label text="Label" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-      <Label text="Label" GridPane.columnIndex="4" GridPane.rowIndex="6" />
-      <Label text="Label" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-      <Label text="Label" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+      <Label styleClass="day" text="Label" GridPane.rowIndex="2" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <Label styleClass="sunday" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+      <Label styleClass="day" text="Label" GridPane.rowIndex="3" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <Label styleClass="sunday" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+      <Label styleClass="day" text="Label" GridPane.rowIndex="4" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <Label styleClass="sunday" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+      <Label styleClass="day" text="Label" GridPane.rowIndex="5" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <Label styleClass="sunday" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <Label styleClass="day" text="Label" GridPane.rowIndex="6" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <Label styleClass="day" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+      <Label styleClass="sunday" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="6" />
    </children>
 </fx:root>

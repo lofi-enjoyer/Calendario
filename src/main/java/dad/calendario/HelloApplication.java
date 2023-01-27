@@ -36,6 +36,7 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/Calendario.fxml"));
         fxmlLoader.setController(this);
         fxmlLoader.load();
+        root.getStylesheets().add(getClass().getResource("/css/calendario.css").toExternalForm());
         Scene scene = new Scene(root);
         stage.setTitle("Calendario");
         stage.setMinWidth(800);
